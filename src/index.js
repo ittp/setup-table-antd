@@ -132,9 +132,15 @@ class EditableTable extends React.Component {
       dataSource: [
         {
           key: "0",
-          name: "Edward King 0",
-          age: "32",
-          address: "London, Park Lane no. 0"
+          type: "user",
+          username: "sip",
+          fullname: "Seleznev Ivan Petrovich",
+          accounts: {
+            organization: { 
+                username: "ip.seleznev",
+                domain: "gov.tp"
+            }
+          }
         },
         {
           key: "1",
